@@ -1,4 +1,4 @@
 tsanos.gr
 =========
 
-tsanos.gr templates
+Templates for tsanos.gr
