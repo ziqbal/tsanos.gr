@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="el-GR">
+<head>
+<meta charset="utf-8" />
+<title><!-- title-->tsanos.gr<!-- /title--></title>
+<link rel="stylesheet" type="text/css" href="_common/css/reset.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="_common/css/style.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="_common/css/dropMenu.css" media="screen"/>
+<script type="text/javascript" src="_common/js/menuScript.js"></script>
+<script type="text/javascript" src="_common/js/common.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+</head>
+<body>
+<div id="preloader">
+	<div id="status">&nbsp;</div>
+</div>
+<header><!-- headerImage-->
+  <div class="headerImg"><img src="_common/img/headers/spinach.png" width="572" height="179"></div>
+  <!-- /headerImage-->
+</header>
+<div></div>
+<nav >
+  <div class="chromestyle" id="chromemenu">
+  <!-- navigation-->
+    <ul>
+      <li> <a href="#" class="notactive">H EΤΑΙΡΕΙΑ ΜΑΣ</a> </li>
+      <li> <a href="#" class="notactive" rel="menu-products">ΠΡΟΪΟΝΤΑ</a></li>
+      <li> <a href="#" class="notactive" rel="menu-recipes">ΣΥΝΤΑΓΕΣ</a></li>
+      <li> <a href="#" class="notactive">ΤΑ ΝΕΑ ΜΑΣ</a></li>
+      <li> <a href="#" class="notactive">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+    </ul>
+   
+  </div>
+  <div id="menu-products" class="dropmenudiv"> <a href="#">χωρίς ζάχαρη</a> <a href="#">παραδοσιακά</a><a href="#">κριτσίνια</a><a href="#">τσανάκια</a></div>
+  <div id="menu-recipes" class="dropmenudiv1"> <a href="#">γλυκές</a> <a href="#">αλμυρές</a></div>
+   <!-- /navigation-->
+  <script type="text/javascript">
+            cssdropdown.startchrome("chromemenu")
+    </script> 
+  <img src="_common/img/menuLine.png" width="1062" height="2"> </nav>
+<div class="mainContent">
+<div class="mainContainer">
+  <div class="leftColumn">
+    <div class="bubbleTop"><img width="186" height="58"  id="bubbleTopID"></div>
+ 
+    <div class="leftColTop"> <img id="bubbleNsID"></div>
+    <div class="leftColBottom">
+    
+     <!--imageProduct-->
+    <img src="_common/img/products/product_0011_xiou-copy.png" width="306" height="326" alt="product image">
+      <!--/imageProduct-->
+    
+    </div>
+  </div>
+  <div class="centerColumn">
+    <!--h1-->
+    <h1>τσaνάκια</h1>
+      <!--/h1-->
+    <br/>
+    <!--h2(inline color)-->
+    <h2 style="color:#86a20a">με σπανάκι</h2>
+    <!--/h2-->
+    <br/>
+     <!--the color attribute must be dynamic-->
+    <p style="color:#86a20a"><span class="whiteText">Συστατικά:</span><!--ingredients--> Αλεύρι σίτου, εξαιρετικό παρθένο ελαιόλαδο, σπανάκι, κρασί, φυτικές ίνες βρώμης, μπέϊκιν πάουντερ, νερό, αλάτι<!--/ingredients--> </p>
+    <p><span class="whiteText"><!--subtext1-->  Μπορεί να περιέχει ίχνη από σουσάμι και ξηρούς καρπούς. <!--/subtext1--></span></p>
+    <p> <span class="underlinedText" style="color:#86a20a"> <!--subtext2-->100% έξτρα παρθένο ελαιόλαδο <br/>
+      Πλούσια σε διαιτητικές ίνες</span><!--/subtext2--></p>
+  </div>
+  <div class="rightColumn">
+    <div class="rightColTop"><img width="197" height="101"  id="bubbleRightID"></div>
+    <div class="rightColMiddle"><!--packagingImg--><img src="_common/img/products/rightColumn/tsanakia_spanaki.png" width="391" height="177"><!--/packagingImg--></div>
+    <div class="rightColBottom" style="color:#86a20a"><!--packagingTxt-->Το προϊόν διατίθεται σε κιβώτιο 12 συσκευασιών των 240γρ.<!--/packagingTxt--></div>
+  </div>
+</div><!--bubbles(animated gifs!!)-->
+   <script language="javascript" type="text/javascript">
+    var d = new Date(); 
+  document.getElementById("bubbleTopID").src = 
+      "_common/img/bubbles/bubble_Tsanakia.gif?ver=" + 
+       d.getTime();
+	     document.getElementById("bubbleNsID").src = 
+      "_common/img/bubbles/bubbleNoSugar.gif?ver=" + 
+       d.getTime();
+	     document.getElementById("bubbleRightID").src = 
+      "_common/img/bubbles/bubbleRight.gif?ver=" + 
+       d.getTime();
+	  
+</script>
+ <!--/bubbles(animated gifs!!)-->
+</div>
+<div class="submenu">
+<!--categoryProducts-->
+  <ul>
+    <li> <a href="#" >με αλεύρι ολικής άλεσης (digestive)</a> </li>
+    <li> <a href="#" >με μέλι και σουσάμι</a></li>
+    <li> <a href="#" >με βανίλια Μαδαγασκάρης</a></li>
+    <li> <a href="#" >με φυσική μαστίχα Χίου</a></li>
+    <li> <a href="#" >με πορτοκάλι και σοκολάτα υγείας</a></li>
+    <li> <a href="#" >σοκολάτας με κομματάκια σοκολάτας υγέιας</a></li>
+    <li> <a href="#" >με φρέσκο μήλο και κανέλα</a></li>
+    <li> <a href="#" >πορτοκαλιού</a></li>
+    <li> <a href="#" >μουστοκούλουρα</a></li>
+    <li> <a href="#" >με 4 τυριά</a></li>
+    <li> <a href="#" >με καρότο  με αλεύρι ολικής άλεσης</a></li>
+    <li> <a href="#" >με ελιές</a></li>
+    <li> <a href="#" >πολύσπορα</a></li>
+    <li> <a href="#" >με σπανάκι</a></li>
+  </ul>
+  <!--/categoryProducts-->
+</div>
+
+<div class="footer">© Tsanos - All rights reserved</div>
+<!--categoryProductsColorsArray-->
+<script type="text/javascript">
+	
+		$(window).load(function() {
+		
+			transitionIn(["#a4988a","#f9b522","#dbc39b","#c2b000","#e95d0f","#009ddb","#d63535","#ee7f00","#d40028","#eece21","#f5b962","#cc9000","#8a7f1d","#ccaf00","#86a20a"]);
+		})
+	
+</script> 
+<!--/categoryProductsColorsArray-->
+</body>
+</html>

@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'tsanosregular';
+	src: url ('../fonts/tsanos-webfont.eot');
+	src: url('../fonts/tsanos-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/tsanos-webfont.woff') format('woff'),  url('../fonts/tsanos-webfont.ttf') format('truetype'),  url('../fonts/tsanos-webfont.svg#tsanosregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
+	display: block;
+}
+a, a:link, a:visited, a:active {
+	text-decoration: none;
+	color:#FFF;
+}
+/* Preloader */
+#preloader {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#000; /* change if the mask should have another color then white */
+	background-image:url(../img/background.jpg);
+	z-index:99; /* makes sure it stays on top */
+}
+#status {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally one the screen */
+	top:50%; /* centers the loading animation vertically one the screen */
+	background-image:url(../img/status.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+body {
+	font-family: 'tsanosregular', sans-serif;
+	margin:0px auto;
+	color:#FFF;
+	background:url(../img/background.jpg);
+}
+header {
+	width:100%;
+	margin: 0 auto 20px auto;
+}
+header .headerImg {
+	width:572px;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav {
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-size:19px;
+}
+nav ul {
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav ul li {
+	display:inline;
+	margin:5px;
+}
+nav a {
+	color:#FFF;
+	-webkit-transition:color .2s ease-in;
+	-moz-transition:color .2s ease-in;
+	-o-transition:color .2s ease-in;
+	transition:color .2s ease-in;
+}
+nav a:hover {
+	color:#766E66;
+}
+.mainContent {
+	margin:30px auto;
+	max-width:1062px;
+	min-height:350px;
+}
+.textContent {
+	text-align:center;
+	line-height:50px;
+	width:600px;
+	margin:auto;
+}
+.footer {
+	text-align:center;
+	font-size:12px;
+	margin:auto;
+}
+/*products main*/
+.products {
+	width:306px;
+	height:326px;
+	margin:auto;
+	position:relative;
+}
+.mainProduct {
+	width:306px;
+	height:326px;
+	margin:auto;
+	position:absolute;
+	top:0;
+	left:0;
+}
+/*submenu*/
+.submenu {
+	font-size:16px;
+	max-width:765px;
+	margin:20px auto;
+
+	
+}
+.submenu ul {
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.submenu ul li {
+	display:inline;
+	margin:5px;
+}
+.mainContainer{
+	min-height:370px;
+
+}
+/*product page*/
+
+.leftColumn {
+	width:30%;
+	position:relative;
+	float:left;
+}
+.leftColumnKritsinia{
+	width:600px;
+	position:relative;
+	float:left;
+}
+
+.bubbleTop {
+	position:absolute;
+	top:-120px;
+	left:-10px;
+}
+.leftColumn .leftColBottom {
+	margin-top:-50px;
+}
+.leftColumnKritsinia .kritsiniaPhoto{
+	margin:auto;
+	width:400px;
+}
+
+.leftColumnKritsinia  h1 {
+	font-size:21px;
+	font-weight:lighter;
+	color:#FFFFFF;
+	line-height:20px;
+}
+.leftColumnKritsinia  h2 {
+	font-size:22px;
+	line-height:20px;
+}
+#recipesPhoto {
+	margin-top:10px;
+}
+.centerColumn {
+	margin:10px;
+	float:left;
+	position:relative;
+	width:280px;
+}
+.centerColumnKritsinia{
+
+	margin:10px 0;
+	float:left;
+	position:relative;
+	width:100%;
+}
+
+.centerColumn h1 {
+	font-size:21px;
+	font-weight:lighter;
+	color:#FFFFFF;
+	line-height:20px;
+}
+.centerColumn h2 {
+	font-size:22px;
+	line-height:20px;
+}
+.centerColumn p {
+	font-size:14px;
+	margin-bottom:20px;
+}
+.centerColumn .whiteText {
+	color:#FFFFFF;
+}
+.centerColumn .underlinedText {
+	text-decoration:underline;
+}
+.rightColumn {
+	width:40%;
+	float:right;
+	position:relative;
+}
+.rightColumn .rightColTop {
+	float:right;
+	margin-top:-50px;
+}
+.rightColumn .rightColMiddle {
+	float:right;
+}
+.rightColumn .rightColMiddleKritsinia{
+	float:right;
+	margin-right:70px;
+	margin-left:150px;
+}
+
+.rightColumn .rightColBottom {
+	float:right;
+	font-size:14px;
+	margin-top:30px;
+}
+/*recipes*/
+.recipesMain {
+	width:1000px;
+	margin:auto;
+}
+.recipesMain img {
+	float:left;
+}
+.recipesIngredients {
+	width:300px;
+	margin-left:30px;
+}
+.recipesExecution {
+	width:28%;
+	float:right;
+	position:relative;
+}
+.recipesExecution ol {
+	list-style:decimal;
+	font-size:40px;
+}
+.recipesExecution ol li {
+	margin-bottom:10px;
+}
+.recipesExecution h1 {
+	font-size:22px;
+	margin-bottom:20px;
+	margin-top:4px;
+}
+.recipesExecution ol p {
+	color:#FFF;
+	font-size:16px;
+}
+.recipesIngredients h1 {
+	font-size:22px;
+	margin-bottom:30px;
+	position:relative;
+}
+.recipesIngredients h2 {
+	margin-left:50px;
+	font-size:16px;
+}
+.recipesIngredients ul {
+	margin-left:50px;
+	font-size:13px;
+	width:170px;
+	z-index:100;
+}
+.recipesIngredients .recipeStroke {
+	top:20px;
+	z-index:-100;
+	position:absolute;
+}
+.recipesExecution p {
+	margin-top:15px;
+	font-size:12px;
+}

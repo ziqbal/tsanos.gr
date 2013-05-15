@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="el-GR">
+<head>
+<meta charset="utf-8" />
+<title>tsanos.gr</title>
+<link rel="stylesheet" type="text/css" href="_common/css/reset.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="_common/css/style.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="_common/css/dropMenu.css" media="screen"/>
+<script type="text/javascript" src="_common/js/menuScript.js"></script>
+<script type="text/javascript" src="_common/js/common.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+</head>
+<body>
+<div id="preloader">
+	<div id="status">&nbsp;</div>
+</div>
+<header>
+  <div class="headerImg"><img src="_common/img/headers/spinach.png" width="572" height="179"></div>
+</header>
+<div></div>
+<nav >
+  <div class="chromestyle" id="chromemenu">
+    <ul>
+      <li> <a href="#" class="notactive">H EΤΑΙΡΕΙΑ ΜΑΣ</a> </li>
+      <li> <a href="#" class="notactive" rel="menu-products">ΠΡΟΪΟΝΤΑ</a></li>
+      <li> <a href="#" class="notactive" rel="menu-recipes">ΣΥΝΤΑΓΕΣ</a></li>
+      <li> <a href="#" class="notactive">ΤΑ ΝΕΑ ΜΑΣ</a></li>
+      <li> <a href="#" class="notactive">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+    </ul>
+  </div>
+  <div id="menu-products" class="dropmenudiv"> <a href="#">χωρίς ζάχαρη</a> <a href="#">παραδοσιακά</a><a href="#">κριτσίνια</a><a href="#">τσανάκια</a></div>
+  <div id="menu-recipes" class="dropmenudiv1"> <a href="#">γλυκές</a> <a href="#">αλμυρές</a></div>
+  <script type="text/javascript">
+            cssdropdown.startchrome("chromemenu")
+    </script> 
+   
+  <img src="_common/img/menuLine.png" width="1062" height="2"> </nav>
+<div class="mainContent">
+  <div class="products">
+   <!-- products-->
+    <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0000_spanaki.png" width="306" height="326" alt="Μαστίχα Χίου"> </a> </div>
+    <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0001_polysporo.png" width="306" height="326"> </a> </div>
+    <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0002_alevri-olikis-copy.png" width="306" height="326"> </a> </div>
+    <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0003_4-tyria.png" width="306" height="326" > </a> </div>
+    <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0004_moustokouloura.png" width="306" height="326"> </a> </div>
+    <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0005_portokaliou.png" width="306" height="326"> </a> </div>
+    <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0006_sokolata-ygias.png" width="306" height="326"> </a> </div>
+    <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0007_portokali-sokolata.png" width="306" height="326"> </a> </div>
+    <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0008_vanillia.png" width="306" height="326"> </a> </div>
+    <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0009_meli-sousami.png" width="306" height="326"> </a> </div>
+    <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0010_olikis-aleseos-copy.png" width="306" height="326"> </a> </div>
+    <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0011_xiou-copy.png" width="306" height="326"> </a> </div>
+     <!-- products-->
+  </div>
+
+</div>
+<div class="submenu">
+  <ul>
+    <li> <a href="#" >με αλεύρι ολικής άλεσης (digestive)</a> </li>
+    <li> <a href="#" >με μέλι και σουσάμι</a></li>
+    <li> <a href="#" >με βανίλια Μαδαγασκάρης</a></li>
+    <li> <a href="#" >με φυσική μαστίχα Χίου</a></li>
+    <li> <a href="#" >με πορτοκάλι και σοκολάτα υγείας</a></li>
+    <li> <a href="#" >σοκολάτας με κομματάκια σοκολάτας υγέιας</a></li>
+    <li> <a href="#" >με φρέσκο μήλο και κανέλα</a></li>
+    <li> <a href="#" >πορτοκαλιού</a></li>
+    <li> <a href="#" >μουστοκούλουρα</a></li>
+    <li> <a href="#" >με 4 τυριά</a></li>
+    <li> <a href="#" >με καρότο  με αλεύρι ολικής άλεσης</a></li>
+    <li> <a href="#" >με ελιές</a></li>
+    <li> <a href="#" >πολύσπορα</a></li>
+    <li> <a href="#" >με σπανάκι</a></li>
+  </ul>
+</div>
+<script>$(document).ready(function(){
+	var elem=$(".submenu ul a");
+	
+	var colors=["#a4988a","#f9b522","#dbc39b","#c2b000","#e95d0f","#009ddb","#d63535","#ee7f00","#d40028","#eece21","#f5b962","#cc9000","#8a7f1d","#ccaf00","#86a20a"];
+	
+	$(".submenu ul a").each(function(index, element){
+		TweenMax.set(element,{css:{color:colors[index]}});
+		
+  		var tl = new TimelineLite({paused:true});
+ 		 tl.to(element, 0.2, {css:{color:"#FFF"}})
+  		 element.animation = tl;
+})
+  
+  
+$(".submenu ul a").hover(over, out);
+
+function over(){
+  this.animation.play();
+}
+
+function out(){
+  this.animation.reverse();
+}
+	
+	
+	
+});
+    
+ </script>
+<div class="footer">© Tsanos - All rights reserved</div>
+<script type="text/javascript">
+	//<![CDATA[
+		$(window).load(function() { 
+		
+			startFading();
+		})
+	//]]>
+</script> 
+</body>
+</html>
