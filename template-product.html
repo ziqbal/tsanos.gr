@@ -2,7 +2,7 @@
 <html lang="el-GR">
 <head>
 <meta charset="utf-8" />
-<title><!-- title-->tsanos.gr<!-- /title--></title>
+<title><!--{pages.pagetitle--><!--}pages.pagetitle--></title>
 <link rel="stylesheet" type="text/css" href="_common/css/reset.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="_common/css/style.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="_common/css/dropMenu.css" media="screen"/>
@@ -28,11 +28,13 @@
   <div class="chromestyle" id="chromemenu">
   <!-- navigation-->
     <ul>
+<!--{pages.level2-->
       <li> <a href="#" class="notactive">H EΤΑΙΡΕΙΑ ΜΑΣ</a> </li>
       <li> <a href="#" class="notactive" rel="menu-products">ΠΡΟΪΟΝΤΑ</a></li>
       <li> <a href="#" class="notactive" rel="menu-recipes">ΣΥΝΤΑΓΕΣ</a></li>
       <li> <a href="#" class="notactive">ΤΑ ΝΕΑ ΜΑΣ</a></li>
       <li> <a href="#" class="notactive">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+<!--}pages.level2-->
     </ul>
    
   </div>
@@ -52,15 +54,24 @@
     <div class="leftColBottom">
     
      <!--imageProduct-->
-    <img src="_common/img/products/product_0011_xiou-copy.png" width="306" height="326" alt="product image">
+
+<!--{pages.block401-->
+<img src="_common/img/products/product_0011_xiou-copy.png" width="306" height="326" alt="product image">
+<!--}pages.block401-->
+
       <!--/imageProduct-->
     
     </div>
   </div>
   <div class="centerColumn">
     <!--h1-->
+    <!--{pages.maintitle-->
     <h1>τσaνάκια</h1>
+    <!--}pages.maintitle-->
       <!--/h1-->
+
+
+<!--{pages.embed-->
     <br/>
     <!--h2(inline color)-->
     <h2 style="color:#86a20a">με σπανάκι</h2>
@@ -71,15 +82,27 @@
     <p><span class="whiteText"><!--subtext1-->  Μπορεί να περιέχει ίχνη από σουσάμι και ξηρούς καρπούς. <!--/subtext1--></span></p>
     <p> <span class="underlinedText" style="color:#86a20a"> <!--subtext2-->100% έξτρα παρθένο ελαιόλαδο <br/>
       Πλούσια σε διαιτητικές ίνες</span><!--/subtext2--></p>
+<!--}pages.embed-->
+
   </div>
   <div class="rightColumn">
     <div class="rightColTop"><img width="197" height="101"  id="bubbleRightID"></div>
-    <div class="rightColMiddle"><!--packagingImg--><img src="_common/img/products/rightColumn/tsanakia_spanaki.png" width="391" height="177"><!--/packagingImg--></div>
+    <div class="rightColMiddle">
+	    <!--packagingImg-->
+	    <!--{pages.block402-->
+	    <img src="_common/img/products/rightColumn/tsanakia_spanaki.png" width="391" height="177">
+	    <!--}pages.block402-->
+	    <!--/packagingImg-->
+    </div>
+	    <!--{pages.block201-->
     <div class="rightColBottom" style="color:#86a20a"><!--packagingTxt-->Το προϊόν διατίθεται σε κιβώτιο 12 συσκευασιών των 240γρ.<!--/packagingTxt--></div>
+	    <!--}pages.block201-->
   </div>
 </div><!--bubbles(animated gifs!!)-->
    <script language="javascript" type="text/javascript">
-    var d = new Date(); 
+    var d = new Date();
+
+	    <!--{pages.block202-->
   document.getElementById("bubbleTopID").src = 
       "_common/img/bubbles/bubble_Tsanakia.gif?ver=" + 
        d.getTime();
@@ -89,6 +112,8 @@
 	     document.getElementById("bubbleRightID").src = 
       "_common/img/bubbles/bubbleRight.gif?ver=" + 
        d.getTime();
+	    <!--}pages.block202-->
+
 	  
 </script>
  <!--/bubbles(animated gifs!!)-->
