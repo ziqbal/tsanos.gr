@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="el-GR">
+<head>
+<meta charset="utf-8" />
+<title><!--{pages.pagetitle--><!--}pages.pagetitle--></title>
+<link rel="stylesheet" type="text/css" href="_common/css/reset.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="_common/css/style.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="_common/css/dropMenu.css" media="screen"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="_common/js/menuScript.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+</head>
+<body>
+<div id="preloader">
+	<div id="status">&nbsp;</div>
+</div>
+<header>
+  <div class="headerImg">
+<!--{pages.block301-->
+	  <img src="_common/img/headers/spinach.png" width="572" height="179">
+<!--}pages.block301-->
+</div>
+</header>
+<div></div>
+<nav >
+  <div class="chromestyle" id="chromemenu">
+    <ul>
+<!--{pages.level2-->
+      <li> <a href="#" class="notactive">H EΤΑΙΡΕΙΑ ΜΑΣ</a> </li>
+      <li> <a href="#" class="notactive" rel="menu-products">ΠΡΟΪΟΝΤΑ</a></li>
+      <li> <a href="#" class="notactive" rel="menu-recipes">ΣΥΝΤΑΓΕΣ</a></li>
+      <li> <a href="#" class="notactive">ΤΑ ΝΕΑ ΜΑΣ</a></li>
+      <li> <a href="#" class="notactive">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+<!--}pages.level2-->
+    </ul>
+  </div>
+  <div id="menu-products" class="dropmenudiv"> <a href="#">χωρίς ζάχαρη</a> <a href="#">παραδοσιακά</a><a href="#">κριτσίνια</a><a href="template-product.html">τσανάκια</a></div>
+  <div id="menu-recipes" class="dropmenudiv1"> <a href="#">γλυκές</a> <a href="#">αλμυρές</a></div>
+  <script type="text/javascript">
+            cssdropdown.startchrome("chromemenu")
+    </script> 
+<img src="_common/img/menuLine.png" width="1062" height="2"> </nav>
+
+<div class="mainContent">
+
+<!--{pages.embed-->
+<!--}pages.embed-->
+
+</div>
+
+<div class="footer">© Tsanos - All rights reserved</div>
+<script type="text/javascript">
+	//<![CDATA[
+		$(window).load(function() { // makes sure the whole site is loaded
+		var preload=("#preloader")
+		TweenMax.to(preload, 1, {css:{autoAlpha:0}}, .4)
+		})
+	//]]>
+</script> 
+</body>
+</html>

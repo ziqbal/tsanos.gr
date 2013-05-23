@@ -45,6 +45,7 @@
 <div class="mainContent">
   <div class="products">
    <!-- products-->
+<!--{pages.navtreebreadcrumbslevelchildren-->
     <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0000_spanaki.png" width="306" height="326" alt="Μαστίχα Χίου"> </a> </div>
     <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0001_polysporo.png" width="306" height="326"> </a> </div>
     <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0002_alevri-olikis-copy.png" width="306" height="326"> </a> </div>
@@ -57,6 +58,7 @@
     <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0009_meli-sousami.png" width="306" height="326"> </a> </div>
     <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0010_olikis-aleseos-copy.png" width="306" height="326"> </a> </div>
     <div class="mainProduct"> <a href="#"> <img src="_common/img/products/product_0011_xiou-copy.png" width="306" height="326"> </a> </div>
+<!--}pages.navtreebreadcrumbslevelchildren-->
      <!-- products-->
   </div>
 
@@ -82,8 +84,9 @@
 <script>$(document).ready(function(){
 	var elem=$(".submenu ul a");
 	
-	var colors=["#a4988a","#f9b522","#dbc39b","#c2b000","#e95d0f","#009ddb","#d63535","#ee7f00","#d40028","#eece21","#f5b962","#cc9000","#8a7f1d","#ccaf00","#86a20a"];
-	
+	//var colors=["#a4988a","#f9b522","#dbc39b","#c2b000","#e95d0f","#009ddb","#d63535","#ee7f00","#d40028","#eece21","#f5b962","#cc9000","#8a7f1d","#ccaf00","#86a20a"];
+	_db_go1();
+
 	$(".submenu ul a").each(function(index, element){
 		TweenMax.set(element,{css:{color:colors[index]}});
 		
