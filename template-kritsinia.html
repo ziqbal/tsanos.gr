@@ -2,7 +2,7 @@
 <html lang="el-GR">
 <head>
 <meta charset="utf-8" />
-<title>tsanos.gr</title>
+<title><!--{pages.pagetitle--><!--}pages.pagetitle--></title>
 <link rel="stylesheet" type="text/css" href="_common/css/reset.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="_common/css/style.css" media="screen"/>
 <link rel="stylesheet" type="text/css" href="_common/css/dropMenu.css" media="screen"/>
@@ -16,17 +16,23 @@
 	<div id="status">&nbsp;</div>
 </div>
 <header>
-  <div class="headerImg"><img src="_common/img/headers/spinach.png" width="572" height="179"></div>
+  <div class="headerImg">
+<!--{pages.block301-->
+	  <img src="_common/img/headers/spinach.png" width="572" height="179">
+<!--}pages.block301-->
+  </div>
 </header>
 <div></div>
 <nav >
   <div class="chromestyle" id="chromemenu">
     <ul>
+<!--{pages.level2-->
       <li> <a href="#" class="notactive">H EΤΑΙΡΕΙΑ ΜΑΣ</a> </li>
       <li> <a href="#" class="notactive" rel="menu-products">ΠΡΟΪΟΝΤΑ</a></li>
       <li> <a href="#" class="notactive" rel="menu-recipes">ΣΥΝΤΑΓΕΣ</a></li>
       <li> <a href="#" class="notactive">ΤΑ ΝΕΑ ΜΑΣ</a></li>
       <li> <a href="#" class="notactive">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+<!--}pages.level2-->
     </ul>
   </div>
   <div id="menu-products" class="dropmenudiv"> <a href="#">χωρίς ζάχαρη</a> <a href="#">παραδοσιακά</a><a href="#">κριτσίνια</a><a href="#">τσανάκια</a></div>
@@ -36,7 +42,12 @@
     </script> 
   <img src="_common/img/menuLine.png" width="1062" height="2"> </nav>
 <div class="mainContent">
+
+
+<!--{pages.block403-->
+
 <div class="mainContainer">
+
   <div class="leftColumn leftColumnKritsinia">
     <div class="bubbleTop"><img width="186" height="58"  id="bubbleTopID"></div>
  
@@ -44,7 +55,7 @@
     <br/>
     <h2 style="color:#86a20a">με σπανάκι</h2>
     <br/></div>
-    <div class="kritsiniaPhoto"><img src="_common/img/products/kritsinia_0000.png"  alt="product image"></div>
+    <div class="kritsiniaPhoto" id='_teacms_a'><img src="_common/img/products/kritsinia_0000.png"  alt="product image"></div>
     <div class="centerColumn centerColumnKritsinia">
    
     <p style="color:#86a20a"><span class="whiteText">Συστατικά:</span> Αλεύρι σίτου, εξαιρετικό παρθένο ελαιόλαδο, σπανάκι, κρασί, φυτικές ίνες βρώμης, μπέϊκιν πάουντερ, νερό, αλάτι</p>
@@ -56,10 +67,14 @@
   
   <div class="rightColumn">
     <div class="rightColTop"><img width="197" height="101"  id="bubbleRightID"></div>
-    <div class="rightColMiddle rightColMiddleKritsinia" ><img src="_common/img/products/rightColumn/kritsinia0000.png"></div>
+    <div class="rightColMiddle rightColMiddleKritsinia" id='_teacms_b' ><img src="_common/img/products/rightColumn/kritsinia0000.png"></div>
     <div class="rightColBottom" style="color:#86a20a">Το προϊόν διατίθεται σε κιβώτιο 12 συσκευασιών των 240γρ.</div>
   </div>
+
+
 </div>
+
+
    <script language="javascript" type="text/javascript">
     var d = new Date(); 
   document.getElementById("bubbleTopID").src = 
@@ -70,9 +85,16 @@
       "_common/img/bubbles/bubbleRight.gif?ver=" + 
        d.getTime();
 </script>
+
+<!--}pages.block403-->
+
+<!--{pages.block404--><!--}pages.block404-->
+<!--{pages.block405--><!--}pages.block405-->
+
 </div>
 <div class="submenu" >
   <ul>
+<!--{pages.navtreebreadcrumbslevelsiblings-->
     <li> <a href="#" >με αλεύρι ολικής άλεσης (digestive)</a> </li>
     <li> <a href="#" >με μέλι και σουσάμι</a></li>
     <li> <a href="#" >με βανίλια Μαδαγασκάρης</a></li>
@@ -87,6 +109,7 @@
     <li> <a href="#" >με ελιές</a></li>
     <li> <a href="#" >πολύσπορα</a></li>
     <li> <a href="#" >με σπανάκι</a></li>
+<!--}pages.navtreebreadcrumbslevelsiblings-->
   </ul>
 </div>
 
@@ -95,7 +118,9 @@
 	//<![CDATA[
 		$(window).load(function() {
 		
-			transitionIn(["#a4988a","#f9b522","#dbc39b","#c2b000","#e95d0f","#009ddb","#d63535","#ee7f00","#d40028","#eece21","#f5b962","#cc9000","#8a7f1d","#ccaf00","#86a20a"]);
+			//transitionIn(["#a4988a","#f9b522","#dbc39b","#c2b000","#e95d0f","#009ddb","#d63535","#ee7f00","#d40028","#eece21","#f5b962","#cc9000","#8a7f1d","#ccaf00","#86a20a"]);
+			_db_go1();
+			transitionIn(colors);
 		})
 	//]]>
 </script> 
