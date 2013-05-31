@@ -136,6 +136,9 @@ nav a:hover {
 	position:relative;
 	float:left;
 }
+.leftColTop img{
+margin-top:-50px;	
+}
 .leftColumnKritsinia{
 	width:600px;
 	position:relative;
