@@ -21,7 +21,29 @@ function startFading() {
 	  tl.restart(); 
    }
 };
-
+function startFadingKritsinia() {
+	TweenMax.set($(".mainProductKritsinia"),{css:{autoAlpha:0}});
+	TweenMax.to(preloader, .5, {css:{autoAlpha:0}}, .4);
+	var elements=$(".mainProductKritsinia");
+	//alert(elements.length);
+	var tl = new TimelineLite({paused:false,onComplete:repeatTL});
+	var delay, outDelay;
+	var interval=4
+	for (var i=0;i<elements.length;i++)
+	{
+		delay=i*interval;
+		outDelay=delay+interval
+		var currentElement=elements[i];	
+		//alert(delay+ " "+outDelay)	
+		tl.to(currentElement, 1, {css:{autoAlpha:1}},delay);
+		tl.to(currentElement, 1, {css:{autoAlpha:0}},outDelay);
+		
+	}
+    function repeatTL()
+   {
+	  tl.restart(); 
+   }
+};
 function transitionIn(colors) {
 
 var left=$(".leftColumn")

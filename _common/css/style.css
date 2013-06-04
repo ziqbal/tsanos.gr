@@ -90,7 +90,9 @@ nav a:hover {
 .footer {
 	text-align:center;
 	font-size:12px;
+	display:block;
 	margin:auto;
+	width:1024px;
 }
 /*products main*/
 .products {
@@ -98,6 +100,13 @@ nav a:hover {
 	height:326px;
 	margin:auto;
 	position:relative;
+}
+.productsKritsinia {
+	width:646px;
+	height:59px;
+	margin:auto;
+	position:relative;
+
 }
 .mainProduct {
 	width:306px;
@@ -107,10 +116,18 @@ nav a:hover {
 	top:0;
 	left:0;
 }
+.mainProductKritsinia {
+	width:646px;
+	height:59px;
+	margin:50px auto;
+	position:absolute;
+	top:0;
+	left:0;
+}
 /*submenu*/
 .submenu {
 	font-size:16px;
-	max-width:765px;
+	max-width:1024px;
 	margin:20px auto;
 
 	
@@ -122,8 +139,12 @@ nav a:hover {
 
 }
 .submenu ul li {
-	display:inline;
-	margin:5px;
+	display:inline-block;
+	
+	
+	margin-left: auto;
+	margin-right: auto;
+	padding-right:10px;
 }
 .mainContainer{
 	min-height:370px;
@@ -136,8 +157,13 @@ nav a:hover {
 	position:relative;
 	float:left;
 }
+.leftColTop{
+	width:118px;
+height:59px;
+}
 .leftColTop img{
 margin-top:-50px;	
+
 }
 .leftColumnKritsinia{
 	width:600px;
@@ -162,7 +188,7 @@ margin-top:-50px;
 	font-size:21px;
 	font-weight:lighter;
 	color:#FFFFFF;
-	line-height:20px;
+	margin-bottom:-17px;
 }
 .leftColumnKritsinia  h2 {
 	font-size:22px;
@@ -186,14 +212,14 @@ margin-top:-50px;
 }
 
 .centerColumn h1 {
-	font-size:21px;
+	font-size:25px;
 	font-weight:lighter;
 	color:#FFFFFF;
-	line-height:20px;
+	margin-bottom:-25px;
 }
 .centerColumn h2 {
-	font-size:22px;
-	line-height:20px;
+	font-size:25px;
+	font-weight:lighter;
 }
 .centerColumn p {
 	font-size:14px;
