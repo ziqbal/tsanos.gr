@@ -87,19 +87,40 @@ productGrow();
 function productGrow()
 {
   		var tl1 = new TimelineLite({paused:true});
- 		 tl1.to($(".rightColMiddle"), 0.2, {scale:1.5,})
-  		
-		 $(".rightColMiddle").hover(over, out);
+ 		tl1.to($(".rightColMiddle"), 0.2, {scale:1.5,})
+  		$(".rightColMiddle").hover(over, out);
 		 function over(){
-   tl1.play();
+  			tl1.play();
+		}
+
+		function out(){
+		  tl1.reverse();
+		
+		}
 }
 
-function out(){
-  tl1.reverse();
 
+function newsGrow()
+{
+	
+	$(".news_img").each(function(index, element){
+		var tl = new TimelineLite({paused:true});
+		tl.to(element, 0.4,{scale:1.5,})
+		element.animation = tl;
+		$(".news_img").hover(over, out);
+	
+		function over(){
+		TweenMax.set(this,{css:{'z-index': 1000}});
+		  this.animation.play();
+		}
+		
+		function out(){
+			TweenMax.set(this,{css:{'z-index': 0}});
+		  this.animation.reverse();
+		}
+	}
+	  )	
 }
-}
- 
  
 //recipes
 function transitionRecipes() {
