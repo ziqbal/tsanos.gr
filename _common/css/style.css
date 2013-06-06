@@ -165,14 +165,8 @@ height:59px;
 margin-top:-50px;	
 
 }
-.leftColumnKritsinia{
-	width:600px;
-	position:relative;
-	float:left;
-}
-.leftColumnKritsinia h2{
-	width:400px;
-}
+
+
 .bubbleTop {
 	position:absolute;
 	top:-120px;
@@ -182,19 +176,26 @@ margin-top:-50px;
 	margin-top:-50px;
 }
 .leftColumnKritsinia .kritsiniaPhoto{
-	margin:auto;
-	width:400px;
+	margin:30px 110px;
+	width:675px;
 }
 
 .leftColumnKritsinia  h1 {
-	font-size:21px;
+	font-size:25px;
 	font-weight:lighter;
 	color:#FFFFFF;
 	margin-bottom:-17px;
 }
+.leftColumnKritsinia{
+	width:550px;
+	position:relative;
+	float:left;
+}
 .leftColumnKritsinia  h2 {
-	font-size:22px;
+	font-size:25px;
 	line-height:20px;
+	font-weight:lighter;
+	width:550px;
 }
 #recipesPhoto {
 	margin-top:10px;
@@ -247,8 +248,11 @@ margin-top:-50px;
 }
 .rightColumn .rightColMiddleKritsinia{
 	float:right;
-	margin-right:70px;
+
 	margin-left:150px;
+}
+.rightColMiddleKritsinia img{
+	float:right
 }
 
 .rightColumn .rightColBottom {
