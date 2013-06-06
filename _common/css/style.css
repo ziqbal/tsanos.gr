@@ -93,6 +93,7 @@ nav a:hover {
 	display:block;
 	margin:auto;
 	width:1024px;
+	clear:both;
 }
 /*products main*/
 .products {
@@ -322,34 +323,38 @@ margin-top:-50px;
 
 /*news*/
 #news{
-text-align:center;
+margin: auto;
+    text-align: center;
+    width: 1000px;
 
 }
 #news h1{
 color:#9a8c7e;
 font-size:23px;
+margin-bottom: 40px;
 
 }
 .new_paximadia{
 float:left;
-width:130px;
+width:250px;
 height:310px;
 }
 .new_tsanakia{
 float:left;
-width:210px;
+width:333px;
 height:150px;
+margin-bottom:30px;
 }
 
 
 .news_text{
-width:130px;
+width:250px;
 text-align:center;
 font-size:14px;
 
 }
 .news_text_tsanakia{
-width:210px;
+width:333px;
 text-align:center;
 font-size:14px;
 
