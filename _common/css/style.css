@@ -79,8 +79,10 @@ nav a:hover {
 .mainContent {
 	margin:30px auto;
 	max-width:1062px;
-	min-height:350px;
+	height:400px;
+
 }
+
 .textContent {
 	text-align:center;
 	line-height:50px;
@@ -103,8 +105,8 @@ nav a:hover {
 	position:relative;
 }
 .productsKritsinia {
-	width:646px;
-	height:59px;
+	width:720px;
+	height:80px;
 	margin:auto;
 	position:relative;
 
@@ -118,20 +120,28 @@ nav a:hover {
 	left:0;
 }
 .mainProductKritsinia {
-	width:646px;
-	height:59px;
-	margin:50px auto;
+	width:720px;
+	height:80px;
+	margin:30px auto;
 	position:absolute;
 	top:0;
 	left:0;
 }
+.mainProductKritsinia img {
+
+	width:720px;
+}
 /*submenu*/
+#submenuContainer{
+position:absolute;
+width:100%;
+}
 .submenu {
 	font-size:16px;
-	max-width:1024px;
+	width:1024px;
 	margin:20px auto;
-
-	
+	clear: both;
+	position:relative;
 }
 .submenu ul {
 	text-align:center;
@@ -152,7 +162,7 @@ nav a:hover {
 
 }
 .mainContainerKritsinia{
-min-height:410px;}
+min-height:380px;}
 /*product page*/
 
 .leftColumn {
@@ -180,9 +190,12 @@ margin-top:-50px;
 }
 .leftColumnKritsinia .kritsiniaPhoto{
 	margin:30px 110px;
-	width:675px;
+	width:700px;
 }
 
+.leftColumnKritsinia .kritsiniaPhoto img{
+width:700px;
+}
 .leftColumnKritsinia  h1 {
 	font-size:25px;
 	font-weight:lighter;
@@ -214,7 +227,7 @@ margin-top:-50px;
 	margin:10px 0;
 	float:left;
 	position:relative;
-	width:100%;
+	width:700px;
 }
 
 .centerColumn h1 {
@@ -261,6 +274,7 @@ margin-top:-50px;
 .rightColumn .rightColBottom {
 	float:right;
 	font-size:14px;
+	text-align:right;
 	margin-top:30px;
 }
 /*recipes*/
