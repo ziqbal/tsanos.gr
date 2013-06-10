@@ -85,9 +85,20 @@ nav a:hover {
 
 .textContent {
 	text-align:center;
-	line-height:50px;
+	line-height:30px;
 	width:600px;
 	margin:auto;
+}
+.companyText{
+text-align:left;
+	line-height:30px;
+	width:900px;
+	margin:auto;
+}
+.companyText h1{
+color:#99672C;
+text-align:center;
+font-size:22px;
 }
 .footer {
 	text-align:center;
