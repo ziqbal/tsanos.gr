@@ -3,7 +3,7 @@
 @font-face {
 	font-family: 'tsanosregular';
 	src: url ('../fonts/tsanos-webfont.eot');
-	src: url('../fonts/tsanos-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/tsanos-webfont.woff') format('woff'),  url('../fonts/tsanos-webfont.ttf') format('truetype'),  url('../fonts/tsanos-webfont.svg#tsanosregular') format('svg');
+	src: url('../fonts/tsanos-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/tsanos-webfont.woff') format('woff'), url('../fonts/tsanos-webfont.ttf') format('truetype'), url('../fonts/tsanos-webfont.svg#tsanosregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -80,25 +80,23 @@ nav a:hover {
 	margin:30px auto;
 	max-width:1062px;
 	height:400px;
-
 }
-
 .textContent {
 	text-align:center;
 	line-height:30px;
 	width:600px;
 	margin:auto;
 }
-.companyText{
-text-align:left;
+.companyText {
+	text-align:left;
 	line-height:30px;
 	width:900px;
 	margin:auto;
 }
-.companyText h1{
-color:#99672C;
-text-align:center;
-font-size:22px;
+.companyText h1 {
+	color:#99672C;
+	text-align:center;
+	font-size:22px;
 }
 .footer {
 	text-align:center;
@@ -120,7 +118,6 @@ font-size:22px;
 	height:80px;
 	margin:auto;
 	position:relative;
-
 }
 .mainProduct {
 	width:306px;
@@ -139,13 +136,12 @@ font-size:22px;
 	left:0;
 }
 .mainProductKritsinia img {
-
 	width:820px;
 }
 /*submenu*/
-#submenuContainer{
-position:absolute;
-width:100%;
+#submenuContainer {
+	position:absolute;
+	width:100%;
 }
 .submenu {
 	font-size:16px;
@@ -158,22 +154,19 @@ width:100%;
 	text-align:center;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 .submenu ul li {
 	display:inline-block;
-	
-	
 	margin-left: auto;
 	margin-right: auto;
 	padding-right:10px;
 }
-.mainContainer{
+.mainContainer {
 	min-height:370px;
-
 }
-.mainContainerKritsinia{
-min-height:380px;}
+.mainContainerKritsinia {
+	min-height:380px;
+}
 /*product page*/
 
 .leftColumn {
@@ -181,16 +174,13 @@ min-height:380px;}
 	position:relative;
 	float:left;
 }
-.leftColTop{
+.leftColTop {
 	width:118px;
-height:59px;
+	height:59px;
 }
-.leftColTop img{
-margin-top:-50px;	
-
+.leftColTop img {
+	margin-top:-50px;
 }
-
-
 .bubbleTop {
 	position:absolute;
 	top:-120px;
@@ -199,26 +189,25 @@ margin-top:-50px;
 .leftColumn .leftColBottom {
 	margin-top:-50px;
 }
-.leftColumnKritsinia .kritsiniaPhoto{
+.leftColumnKritsinia .kritsiniaPhoto {
 	margin:30px 110px;
 	width:700px;
 }
-
-.leftColumnKritsinia .kritsiniaPhoto img{
-width:700px;
+.leftColumnKritsinia .kritsiniaPhoto img {
+	width:700px;
 }
-.leftColumnKritsinia  h1 {
+.leftColumnKritsinia h1 {
 	font-size:25px;
 	font-weight:lighter;
 	color:#FFFFFF;
 	margin-bottom:-17px;
 }
-.leftColumnKritsinia{
+.leftColumnKritsinia {
 	width:550px;
 	position:relative;
 	float:left;
 }
-.leftColumnKritsinia  h2 {
+.leftColumnKritsinia h2 {
 	font-size:25px;
 	line-height:20px;
 	font-weight:lighter;
@@ -233,14 +222,12 @@ width:700px;
 	position:relative;
 	width:280px;
 }
-.centerColumnKritsinia{
-
+.centerColumnKritsinia {
 	margin:10px 0;
 	float:left;
 	position:relative;
 	width:700px;
 }
-
 .centerColumn h1 {
 	font-size:25px;
 	font-weight:lighter;
@@ -273,15 +260,13 @@ width:700px;
 .rightColumn .rightColMiddle {
 	float:right;
 }
-.rightColumn .rightColMiddleKritsinia{
+.rightColumn .rightColMiddleKritsinia {
 	float:right;
-
 	margin-left:150px;
 }
-.rightColMiddleKritsinia img{
+.rightColMiddleKritsinia img {
 	float:right
 }
-
 .rightColumn .rightColBottom {
 	float:right;
 	font-size:14px;
@@ -345,42 +330,79 @@ width:700px;
 	margin-top:15px;
 	font-size:12px;
 }
-
 /*news*/
-#news{
-margin: auto;
-    text-align: center;
-    width: 1000px;
-
+#news {
+	margin: auto;
+	text-align: center;
+	width: 1000px;
 }
-#news h1{
-color:#9a8c7e;
-font-size:23px;
-margin-bottom: 40px;
-
+#news h1 {
+	color:#9a8c7e;
+	font-size:23px;
+	margin-bottom: 40px;
 }
-.new_paximadia{
-float:left;
-width:250px;
-height:310px;
+.new_paximadia {
+	float:left;
+	width:250px;
+	height:310px;
 }
-.new_tsanakia{
-float:left;
-width:333px;
-height:150px;
-margin-bottom:30px;
+.new_tsanakia {
+	float:left;
+	width:333px;
+	height:150px;
+	margin-bottom:30px;
+}
+.news_text {
+	width:250px;
+	text-align:center;
+	font-size:14px;
+}
+.news_text_tsanakia {
+	width:333px;
+	text-align:center;
+	font-size:14px;
+}
+/*contact*/
+#contact {
+	position:relative;
+	margin:50px;
+}
+#contactLeft {
+	width:550px;
+}
+#contactLeft p {
+	margin:50px;
+	font-size:18px;
+}
+#contactRight {
+}
+#cardBg {
+	
+	right:0;
+	top:0;
+	float:right;
+	width:396px;
+	height:400px;
+	background:url(../img/contact_card.png) no-repeat ;
+	position:absolute;
 }
 
-
-.news_text{
-width:250px;
-text-align:center;
-font-size:14px;
-
+#name{
+margin:35px  auto 10px 105px;
+height:28px;
+width:215px;
 }
-.news_text_tsanakia{
-width:333px;
-text-align:center;
-font-size:14px;
-
+#surname, #email {
+margin:2px  auto 10px 105px;
+height:28px;
+width:215px;
+}
+#message{
+margin:27px  auto 5px 40px;
+height:75px;
+width:285px;	
+}
+#submit{
+float:right;
+margin-right:60px;
 }
