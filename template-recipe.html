@@ -93,9 +93,11 @@
 <!--<script>$(document).ready(transitionIn())</script>
 --><div class="submenu">
   <ul>
+<!--{pages.navtreebreadcrumbslevelsiblings-->
     <li> <a href="#" >Cheescake TSANOS</a> </li>
     <li> <a href="#" >Καλοκαιρινή πανδαισία TSANOS</a></li>
     <li> <a href="#" >Κέικ παγωτό TSANOS</a></li>
+<!--}pages.navtreebreadcrumbslevelsiblings-->
   </ul>
 </div>
 
@@ -104,9 +106,10 @@
 	//<![CDATA[
 		$(window).load(function() { 
 		
+		_db_go1();
 		
-		
-		transitionIn(["#a4988a","#f9b522","#dbc39b"]);
+		//transitionIn(["#a4988a","#f9b522","#dbc39b"]);
+		transitionIn(colors);
 		})
 	//]]>
 </script> 
