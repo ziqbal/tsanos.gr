@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="el-GR">
+<head>
+<meta charset="utf-8" />
+<title><!--{pages.pagetitle--><!--}pages.pagetitle--></title>
+<link rel="stylesheet" type="text/css" href="_common/css/reset.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="_common/css/style.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="_common/css/dropMenu.css" media="screen"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="_common/js/menuScript.js"></script>
+<script type="text/javascript" src="_common/js/common.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+</head>
+<body>
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<header>
+  <div class="headerImg">
+    <div style="position:absolute; margin-top:50px;float:right;  margin-left:360px;;"> <a href="homepage-cq.html"><img src="_common/img/logo.png"></a></div>
+    <!--{pages.block301--> 
+    <img src="_common/img/headers/header_0000s_0027_photo-nea.png" width="544" height="168"> 
+    <!--}pages.block301--> 
+  </div>
+</header>
+<div></div>
+<nav >
+  <div class="chromestyle" id="chromemenu">
+    <ul>
+      <!--{pages.level2-->
+      <li> <a href="#" class="notactive">H EΤΑΙΡΕΙΑ ΜΑΣ</a> </li>
+      <li> <a href="#" class="notactive" rel="menu-products">ΠΡΟΪΟΝΤΑ</a></li>
+      <li> <a href="#" class="notactive" rel="menu-recipes">ΣΥΝΤΑΓΕΣ</a></li>
+      <li> <a href="#" class="notactive">ΤΑ ΝΕΑ ΜΑΣ</a></li>
+      <li> <a href="#" class="notactive">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+      <!--}pages.level2-->
+    </ul>
+  </div>
+  <div id="menu-products" class="dropmenudiv"> <a href="productMain-w.html">χωρίς ζάχαρη</a> <a href="productMain-2h.html">παραδοσιακά</a><a href="productKritsiniaMain-bn.html">κριτσίνια</a><a href="productMain-5b.html">τσανάκια</a><a href="productMain-5f.html">παξιμάδια</a></div>
+  <div id="menu-recipes" class="dropmenudiv1"> <a href="general-ct.html">γλυκές</a> <a href="general-cy.html">αλμυρές</a></div>
+  <script type="text/javascript">
+            cssdropdown.startchrome("chromemenu")
+    </script> 
+  <img src="_common/img/menuLine.png" width="1062" height="2"> </nav>
+<div class="mainContent"> 
+  
+  <!--{pages.embed-->
+  <div id="contact">
+    <div id="contactLeft"><img src="_common/img/bubbles/bubble_Contact.gif" width="210">
+      <p>Θέση Ντοροβαντέζα, Βιομηχανικό Πάρκο Μαρκοπούλου <br/>
+        19003, Μαρκόπουλο Αττικής <br/>
+        Τηλ.: 2299063303 <br/>
+        e-mail: info@tsanos.gr</p>
+    </div>
+    
+      <div id="cardBg">
+      <form action="#">
+      <input type="text" aria-required="true" id="name" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" size="40" value="" name="name">
+      <input type="text" aria-required="true" id="surname" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" size="40" value="" name="surname">
+      <input type="text" aria-required="true" id="email" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" size="40" value="" name="email">
+       <textarea id="message" name="message" rows="5" cols="30"></textarea>
+      
+      </form>
+      <input type="submit" id="submit" class="wpcf7-form-control wpcf7-submit btn" value="Αποστολή">
+      </div>
+    
+  </div>
+  <!--}pages.embed--> 
+  
+</div>
+<div class="footer">© Tsanos - All rights reserved</div>
+<script type="text/javascript">
+	//<![CDATA[
+		$(window).load(function() { // makes sure the whole site is loaded
+		var preload=("#preloader")
+		TweenMax.to(preload, 1, {css:{autoAlpha:0}}, .4)
+		})
+	//]]>
+</script>
+</body>
+</html>
