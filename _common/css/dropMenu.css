@@ -58,6 +58,22 @@ section {
 	padding-top:12px;
 	padding-right:6px;
 }
+#menu-recipes-en{
+
+position:absolute;
+	top: 0;
+	border-bottom-width: 0;
+	line-height:18px;
+	z-index:100;
+	background-color:transparent;
+	width: auto;
+	visibility: hidden;
+	/*margin-left:-25px;*/
+	padding-left:7px;
+	padding-top:12px;
+	padding-right:6px;
+
+}
 .dropmenudiv a {
 	width: auto;
 	display: block;
