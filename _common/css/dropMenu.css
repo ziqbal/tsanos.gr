@@ -85,7 +85,7 @@ position:absolute;
 	width: auto;
 	visibility: hidden;
 	/*margin-left:-25px;*/
-	padding-left:-200px;
+	margin-left:-200px;
 	padding-top:12px;
 	padding-right:6px;
 
