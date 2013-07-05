@@ -74,6 +74,22 @@ position:absolute;
 	padding-right:6px;
 
 }
+#menu-products-ru{
+
+position:absolute;
+	top: 0;
+	border-bottom-width: 0;
+	line-height:18px;
+	z-index:100;
+	background-color:transparent;
+	width: auto;
+	visibility: hidden;
+	/*margin-left:-25px;*/
+	padding-left:-200px;
+	padding-top:12px;
+	padding-right:6px;
+
+}
 .dropmenudiv a {
 	width: auto;
 	display: block;
