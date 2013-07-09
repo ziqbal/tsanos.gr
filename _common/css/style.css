@@ -45,14 +45,19 @@ body {
 header {
 	width:100%;
 	margin: 0 auto 20px auto;
+	
 }
 header .headerImg {
+	position:relative;
 	width:572px;
 	margin-left: auto;
 	margin-right: auto;
 }
-header #langs{
-position:absolute; top:207px; left:1110px;	
+header .headerImg #langs{
+	position:absolute;
+float:right;
+right:-150px;
+bottom:-48px
 }
 
 nav {
