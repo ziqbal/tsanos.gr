@@ -1,12 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-@font-face {
-	font-family: 'tsanosregular';
-	src: url ('../fonts/tsanos-webfont.eot');
-	src: url('../fonts/tsanos-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/tsanos-webfont.woff') format('woff'), url('../fonts/tsanos-webfont.ttf') format('truetype'), url('../fonts/tsanos-webfont.svg#tsanosregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+@import url(http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,greek,cyrillic);
+
+
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
 	display: block;
 }
@@ -37,7 +33,7 @@ a, a:link, a:visited, a:active {
 	margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 body {
-	font-family: 'tsanosregular', sans-serif;
+	font-family: 'Comfortaa', cursive;
 	margin:0px auto;
 	color:#FFF;
 	background:url(../img/background.jpg);
